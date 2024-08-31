@@ -1,4 +1,4 @@
-package com.example.navegationjcp
+package com.example.navegationjpc_dr
 
 import org.junit.Test
 

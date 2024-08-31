@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "NavegationJCP"
+rootProject.name = "NavegationJPC-DR"
 include(":app")
  

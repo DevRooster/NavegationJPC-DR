@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.navegationjcp"
+    namespace = "com.example.navegationjpc_dr"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.navegationjcp"
+        applicationId = "com.example.navegationjpc_dr"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -66,15 +66,4 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-
-    //implementation (libs.androidx.navigation.compose)
-
-    val nav_version = "2.7.7"
-
-    // Jetpack Compose integration
-    implementation("androidx.navigation:navigation-compose:$nav_version")
-
-    // Views/Fragments integration
-    implementation("androidx.navigation:navigation-fragment:$nav_version")
-    implementation("androidx.navigation:navigation-ui:$nav_version")
 }
