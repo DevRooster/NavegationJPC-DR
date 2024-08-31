@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.navegationjpc_dr"
+    namespace = "pe.edu.upeu.navegacionjpc"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.navegationjpc_dr"
+        applicationId = "pe.edu.upeu.navegacionjpc"
         minSdk = 28
         targetSdk = 34
         versionCode = 1
@@ -66,7 +66,9 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-
-    implementation ("androidx.navigation:navigation-compose:2.7.7")
+    val nav_version = "2.7.7"
+    implementation("androidx.navigation:navigation-compose:$nav_version")
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 
 }
